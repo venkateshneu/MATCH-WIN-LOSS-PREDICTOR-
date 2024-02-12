@@ -1,7 +1,8 @@
-![Alt Text](https://pianalytix.com/wp-content/uploads/2020/12/Introduction-to-IoT-penetration-testing.jpg)
 
-# IPl MATCH-WIN-LOSS-PREDICTOR-
-A machine learning model for predicting Indian Premier League (IPL) match outcomes. Leveraging historical match data, the model employs various features to forecast the likelihood of team victories. Built using scikit-learn and Python, with a Flask web application for user interaction
+
+
+# IPL Match Win Percentage Predictor
+This project is a high-quality IPL (Indian Premier League) match win percentage predictor built using machine learning techniques. Leveraging a logistic regression model trained on historical IPL match data, the application accurately predicts the probability of each team winning a match based on various factors such as team performance, venue, and match progress. The user-friendly interface, powered by Streamlit, offers dropdowns and number inputs for easy interaction, providing quick insights into potential match outcomes. The model is meticulously trained and evaluated to ensure reliability, and the trained pipeline is efficiently saved for seamless future predictions.
 
 WORK FLOW:
 
@@ -45,11 +46,23 @@ Model Deployment
 The Streamlit web application is created to provide a user interface for predicting match outcomes.
 The user interface allows users to select batting team, bowling team, city, remaining score, balls remaining, and wickets remaining to predict the match outcome probability.
 
-Requirements: 
+
+
+## Venkatesh Guri
+
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
+
+## 
 Python Libraries
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
-streamlit
+streamlit 
+![Logo](
+)
+
+
