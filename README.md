@@ -1,4 +1,4 @@
-![Alt Text](https://pianalytix.com/wp-content/uploads/2020/12/Introduction-to-IoT-penetration-testing.jpg)
+![Alt Text](https://pianalytix.com/wp-content/uploads/2020/12/IPL-Match-Prediction.jpg)
 
 
 # IPL Match Win Percentage Predictor 🏏📈
