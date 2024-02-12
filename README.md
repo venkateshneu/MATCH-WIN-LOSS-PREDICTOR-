@@ -1,5 +1,4 @@
-![Alt Text](https://pianalytix.com/wp-content/uploads/2020/12/IPL-Match-Prediction.jpg)
-
+![IPL Match Prediction](https://pianalytix.com/wp-content/uploads/2020/12/IPL-Match-Prediction.jpg)
 
 # IPL Match Win Percentage Predictor 🏏📈
 
@@ -8,43 +7,43 @@ A machine learning model for predicting Indian Premier League (IPL) match outcom
 ## Workflow 🔄
 
 1. **Data Collection 📊**
-   - Utilize two datasets: `deliveries.csv` containing ball-by-ball information and `matches.csv` containing match-level information.
+   - Utilizing two datasets: `deliveries.csv` containing ball-by-ball information and `matches.csv` containing match-level information.
 
 2. **Data Preprocessing 🛠️**
-   - Load datasets into Pandas DataFrames (df and dp).
-   - Import necessary libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Streamlit.
-   - Perform initial data exploration to understand the structure and content of the datasets.
+   - Loading datasets into Pandas DataFrames (df and dp).
+   - Importing necessary libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Streamlit.
+   - Performing initial data exploration to understand the structure and content of the datasets.
 
 3. **Data Preparation 📝**
-   - Calculate and aggregate the total runs scored in each inning of every match.
-   - Filter the dataset to include only the first inning scores.
-   - Merge necessary columns from the match dataset with the total runs dataset.
+   - Calculating and aggregating the total runs scored in each inning of every match.
+   - Filtering the dataset to include only the first inning scores.
+   - Merging necessary columns from the match dataset with the total runs dataset.
 
 4. **Feature Engineering 🧪**
-   - Standardize the teams' names to match the defined list of teams.
-   - Calculate additional features like remaining score, balls remaining, wickets remaining, CRR, and RRR.
-   - Filter out matches with applied Duckworth-Lewis (DL) method.
-   - Engineer a feature indicating the match result.
+   - Standardizing the teams' names to match the defined list of teams.
+   - Calculating additional features like remaining score, balls remaining, wickets remaining, CRR, and RRR.
+   - Filtering out matches with applied Duckworth-Lewis (DL) method.
+   - Engineering a feature indicating the match result.
 
 5. **Data Transformation 🔄**
-   - Apply one-hot encoding to categorical features (batting_team, bowling_team, city) using ColumnTransformer.
-   - Split the data into training and testing sets using train_test_split.
+   - Applying one-hot encoding to categorical features (batting_team, bowling_team, city) using ColumnTransformer.
+   - Splitting the data into training and testing sets using train_test_split.
 
 6. **Model Building 🧱**
-   - Choose the Logistic Regression model for its simplicity and interpretability.
-   - Create a pipeline with data transformation and logistic regression.
+   - Choosing the Linear Regression model for its simplicity and interpretability.
+   - Creating a pipeline with data transformation and linear regression.
 
 7. **Model Training 🎓**
-   - Train the pipeline on the training dataset.
+   - Training the pipeline on the training dataset.
 
 8. **Model Evaluation 📈**
-   - Evaluate model accuracy using the testing dataset.
-   - Calculate the accuracy score to assess the performance of the model.
+   - Evaluating model accuracy using the testing dataset.
+   - Calculating the accuracy score to assess the performance of the model.
 
 9. **Model Deployment 🚀**
-   - Save the trained model using pickle for future use.
-   - Create a Streamlit web application to provide a user interface for predicting match outcomes.
-   - Allow users to select batting team, bowling team, city, remaining score, balls remaining, and wickets remaining to predict the match outcome probability.
+   - Saving the trained model using pickle for future use.
+   - Creating a Streamlit web application to provide a user interface for predicting match outcomes.
+   - Allowing users to select batting team, bowling team, city, remaining score, balls remaining, and wickets remaining to predict the match outcome probability.
 
 ## Requirements 📋
 
@@ -61,6 +60,4 @@ A machine learning model for predicting Indian Premier League (IPL) match outcom
 ## Acknowledgements 🙏
 
 - The project data is sourced from the Indian Premier League (IPL) dataset.
-- thanks to the developers of scikit-learn, Streamlit, and other Python libraries used in this project.
-
-
+- Thanks to the developers of scikit-learn, Streamlit, and other Python libraries used in this project.
