@@ -1,3 +1,5 @@
+![Alt Text](https://pianalytix.com/wp-content/uploads/2020/12/Introduction-to-IoT-penetration-testing.jpg)
+
 
 # IPL Match Win Percentage Predictor 🏏📈
 
@@ -58,7 +60,7 @@ A machine learning model for predicting Indian Premier League (IPL) match outcom
 
 ## Acknowledgements 🙏
 
-- The project data is sourced from the Indian Premier League (IPL).
-- Special thanks to the developers of scikit-learn, Streamlit, and other Python libraries used in this project.
-=
+- The project data is sourced from the Indian Premier League (IPL) dataset.
+- thanks to the developers of scikit-learn, Streamlit, and other Python libraries used in this project.
+
 
