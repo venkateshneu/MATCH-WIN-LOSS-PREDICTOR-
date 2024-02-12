@@ -47,7 +47,7 @@ A machine learning model for predicting Indian Premier League (IPL) match outcom
 
 ## Requirements 📋
 
-- Python Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, streamlit
+- Python Libraries: pandas, numpy, scikit-learn, streamlit
 - Datasets: `deliveries.csv`, `matches.csv`
 
 ## Usage 💻
